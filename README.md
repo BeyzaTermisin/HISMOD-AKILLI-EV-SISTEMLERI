@@ -29,12 +29,12 @@ Türkiye gibi afet riski yüksek ülkelerde, bireysel farkındalık ve önlem al
 ---
 
 ## 🧰 Sistem Özellikleri
+- ✅ **Çoklu Sensör İzleme: Sensör verileri belirli aralıklarla okunur**
+- ✅ **Durum Algılama Mantığı: Eşik değerleri aşıldığında tehlike tipi belirlenir.**
+- ✅ **Interrupt Tabanlı Algılama: SW-420 deprem sensörü için hızlı tepki.**
+- ✅ **Seri Port Gözlem: Tüm olaylar Arduino IDE üzerinden anlık olarak takip edilir.**
+- ✅ **Dinamik Uyarı Sistemi: Her tehlike tipi için farklı sesli uyarı ve konsol çıktısı.**
 
-- ✅ **Gerçek zamanlı çoklu sensör taraması**
-- ✅ **Duruma özel alarm tetikleyiciler (gaz, yangın, deprem)**
-- ✅ **Sesli uyarı (buzzer) sistemi**
-- ✅ **Sensör verilerinin eşik değerlerle karşılaştırılması**
-- ✅ **Senaryo simülasyonları için test butonları (isteğe bağlı)**
 
 ---
 
@@ -55,7 +55,8 @@ if (depremAlgilandi()) {
   Serial.println("🌍 DEPREM ALGILANDI!");
   buzzerUyar();
 }
-```
+
+---
 ## Bağlantı Şeması
 
 ### Fritzing Devre Şeması  
@@ -66,8 +67,8 @@ if (depremAlgilandi()) {
 > Giriş/çıkış pinleri ve bağlantılar Fritzing şemasında detaylıca gösterilmiştir.
 Not: Deneyap Kart 1A, ESP32 tabanlıdır ve 3.3V çalışma voltajına sahiptir. 5V beslemeli sensörlerde dikkatli olun.
 
-```
 
+---
 ##  Yazılım Kurulumu (Arduino IDE)
 
 Gerekli Adımlar:
