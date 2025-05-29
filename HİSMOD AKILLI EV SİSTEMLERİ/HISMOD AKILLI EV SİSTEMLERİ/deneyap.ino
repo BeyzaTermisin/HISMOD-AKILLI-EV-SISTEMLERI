@@ -2,7 +2,7 @@
 const int flameDigitalPin = D0;   // Alev sensörü DO
 const int flameAnalogPin  = A0;   // Alev sensörü AO
 const int gasDigitalPin   = D1;   // Gaz sensörü DO
-const int quakeSensorPin  = D4;   // Deprem sensörü (GÜNCELLENDİ)
+const int quakeSensorPin  = D4;   // Deprem sensörü 
 #define TRIG_PIN D12              // Ultrasonik TRIG
 #define ECHO_PIN D13              // Ultrasonik ECHO
 const int buzzerPin       = D9;   // Ortak buzzer pini
