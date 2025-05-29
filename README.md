@@ -55,17 +55,21 @@ if (depremAlgilandi()) {
   Serial.println("🌍 DEPREM ALGILANDI!");
   buzzerUyar();
 }
-
+```
 ## Bağlantı Şeması
 
 ### Fritzing Devre Şeması  
-![Fritzing Şeması] ![image](https://github.com/user-attachments/assets/25502a44-1826-4dd1-ab45-2456fbe12894)
+![Fritzing Şeması](docs/fritzing.jpeg)
+
 
 
 > Giriş/çıkış pinleri ve bağlantılar Fritzing şemasında detaylıca gösterilmiştir.
 Not: Deneyap Kart 1A, ESP32 tabanlıdır ve 3.3V çalışma voltajına sahiptir. 5V beslemeli sensörlerde dikkatli olun.
 
-**Yazılım Kurulumu (Arduino IDE)**
+```
+
+##  Yazılım Kurulumu (Arduino IDE)
+
 Gerekli Adımlar:
 Arduino IDE (1.8.x veya 2.x) indirin.
 
@@ -78,8 +82,6 @@ hismod.ino dosyasını açın.
 Portu seçin ve karta yükleyin.
 
 Serial Monitor’dan 9600 baud ile çalıştırın.
-
-Bu proje MIT Lisansı kapsamında açık kaynak olarak sunulmaktadır. Her türlü katkı ve geliştirme memnuniyetle karşılanır.
 
 
 
