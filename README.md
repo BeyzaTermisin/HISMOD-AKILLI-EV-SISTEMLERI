@@ -56,35 +56,29 @@ if (depremAlgilandi()) {
   buzzerUyar();
 }
 
----
-## Bağlantı Şeması
+## 🔌 Bağlantı Şeması
 
-### Fritzing Devre Şeması  
-![Image](https://github.com/user-attachments/assets/f43838d0-0c53-4e67-9917-e2c1ba37b9e0)
+### 🔧 Fritzing Devre Şeması  
+![Fritzing Devre Şeması](https://github.com/user-attachments/assets/f43838d0-0c53-4e67-9917-e2c1ba37b9e0)
 
-
-
-> Giriş/çıkış pinleri ve bağlantılar Fritzing şemasında detaylıca gösterilmiştir.
-Not: Deneyap Kart 1A, ESP32 tabanlıdır ve 3.3V çalışma voltajına sahiptir. 5V beslemeli sensörlerde dikkatli olun.
-
+> Giriş/çıkış pinleri ve bağlantılar Fritzing şemasında detaylıca gösterilmiştir.  
+> 💡 **Not:** Deneyap Kart 1A, ESP32 tabanlıdır ve 3.3V çalışma voltajına sahiptir. 5V beslemeli sensörlerde dikkatli olun.
 
 ---
-##  Yazılım Kurulumu (Arduino IDE)
 
-Gerekli Adımlar:
-Arduino IDE (1.8.x veya 2.x) indirin.
+## 💻 Yazılım Kurulumu (Arduino IDE)
 
-ESP32 kart tanımını ekleyin (Board Manager → esp32 → Espressif Systems).
+### Gerekli Adımlar:
 
-Kart ayarlarından "Deneyap Kart 1A" seçin.
+1. Arduino IDE (**1.8.x** veya **2.x**) sürümünü indirin.  
+2. **ESP32** kart tanımını ekleyin:  
+   - Board Manager → **esp32** → **Espressif Systems**
+3. Araçlar > Kart > **Deneyap Kart 1A** seçin.  
+4. `hismod.ino` dosyasını açın.  
+5. Uygun **portu seçin** ve karta **yükleyin**.  
+6. **Serial Monitor** üzerinden 9600 baud ile çalıştırın.
 
-hismod.ino dosyasını açın.
-
-Portu seçin ve karta yükleyin.
-
-Serial Monitor’dan 9600 baud ile çalıştırın.
-
-
+---
 
 
 
