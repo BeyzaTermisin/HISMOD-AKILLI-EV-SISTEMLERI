@@ -56,6 +56,7 @@ if (depremAlgilandi()) {
   buzzerUyar();
 }
 
+---
 
 ## 🔌 Bağlantı Şeması
 
