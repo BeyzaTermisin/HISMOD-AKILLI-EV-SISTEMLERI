@@ -59,7 +59,7 @@ if (depremAlgilandi()) {
 ## Bağlantı Şeması
 
 ### Fritzing Devre Şeması  
-![Fritzing Şeması](docs/fritzing.jpeg)
+![Image](https://github.com/user-attachments/assets/f43838d0-0c53-4e67-9917-e2c1ba37b9e0)
 
 
 
