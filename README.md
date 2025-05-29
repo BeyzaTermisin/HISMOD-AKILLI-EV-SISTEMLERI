@@ -56,19 +56,13 @@ if (depremAlgilandi()) {
   buzzerUyar();
 }
 
----
-
 ## 🔌 Bağlantı Şeması
 
-```cpp
-### 🔧 Fritzing Devre Şeması  
-![Fritzing Devre Şeması] ![image](https://github.com/user-attachments/assets/b8f6031d-8b2d-4fa3-8145-415d88d90640)
-
+![Fritzing Devre Şeması](https://github.com/BeyzaTermisin/HISMOD-AKILLI-EV-SISTEMLERI/blob/main/images/hismod-devre.png?raw=true)
 
 > Giriş/çıkış pinleri ve bağlantılar Fritzing şemasında detaylıca gösterilmiştir.  
 > 💡 **Not:** Deneyap Kart 1A, ESP32 tabanlıdır ve 3.3V çalışma voltajına sahiptir. 5V beslemeli sensörlerde dikkatli olun.
 
----
 
 ## 💻 Yazılım Kurulumu (Arduino IDE)
 
