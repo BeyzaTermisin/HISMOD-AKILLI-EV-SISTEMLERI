@@ -55,7 +55,7 @@ if (depremAlgilandi()) {
   Serial.println("🌍 DEPREM ALGILANDI!");
   buzzerUyar();
 }
-
+``` 
 ## 🔌 Bağlantı Şeması
 
 ![Fritzing Devre Şeması](https://github.com/BeyzaTermisin/HISMOD-AKILLI-EV-SISTEMLERI/blob/main/images/hismod-devre.png?raw=true)
