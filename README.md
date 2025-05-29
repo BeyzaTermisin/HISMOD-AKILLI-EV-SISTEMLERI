@@ -1,10 +1,10 @@
-# HISMOD – Akıllı Ev Güvenlik ve Afet Simülasyon Sistemi 
+# 🛡️ HISMOD – Akıllı Ev Güvenlik ve Afet Simülasyon Sistemi 
 
 **HISMOD**, Deneyap Kart 1A ile geliştirilen, çoklu sensör destekli bir **akıllı ev güvenlik ve afet farkındalık sistemidir**. Yangın, gaz kaçağı, deprem gibi tehlikeleri erken aşamada tespit ederek kullanıcıyı uyarır. Sistem aynı zamanda **simülasyon temelli farkındalık yaratmayı** amaçlayarak, kullanıcıların bu tehlikelere karşı hazırlıklı olmasını sağlar.
 
 ---
 
-## Proje Amacı
+## 🎯 Proje Amacı
 
 Türkiye gibi afet riski yüksek ülkelerde, bireysel farkındalık ve önlem alma alışkanlığı oldukça düşüktür. HISMOD bu soruna düşük maliyetli, yerel üretimle geliştirilen, kolay kurulabilen bir donanım çözümü sunar:
 
@@ -59,7 +59,7 @@ if (depremAlgilandi()) {
 ## 🔌 Bağlantı Şeması
 ![Image](https://github.com/user-attachments/assets/191f9244-38b0-4155-8f54-50c58dfa7fd5)
 
-> Giriş/çıkış pinleri ve bağlantılar Fritzing şemasında detaylıca gösterilmiştir.  
+>  Giriş/çıkış pinleri ve bağlantılar Fritzing şemasında detaylıca gösterilmiştir.  
 > 💡 **Not:** Deneyap Kart 1A, ESP32 tabanlıdır ve 3.3V çalışma voltajına sahiptir. 5V beslemeli sensörlerde dikkatli olun.
 
 
