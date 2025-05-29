@@ -56,10 +56,11 @@ if (depremAlgilandi()) {
   buzzerUyar();
 }
 
+---
 
 ## 🔌 Bağlantı Şeması
 
----
+```cpp
 ### 🔧 Fritzing Devre Şeması  
 ![Fritzing Devre Şeması]https://github.com/BeyzaTermisin/HISMOD-AKILLI-EV-SISTEMLERI/issues/1#issue-3100620702
 
